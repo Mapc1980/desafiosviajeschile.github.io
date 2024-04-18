@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html{
+    scroll-behavior: auto !important;
+} */
+
+/*NAV bar*/
+body {
+    font-family: Raleway;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    background-color: transparent;
+    font-family: "Roboto", sans-serif;
+    position: fixed;
+    width: 100vw;
+    z-index: 2;
+}
+
+/*Quienes_Somos*/
+#Quienes-Somos {
+    font-family: "Roboto";
+    background-color: black;
+}
+
+.destacard {
+    background: rgb(0, 170, 255);
+}
+/*Destacados*/
+#Destacados {
+
+    font-family: "Roboto";
+    
+}
+
+/*Contacto*/
+#Contacto h1 {
+    font-family: "Roboto";
+    font-weight: 52px;
+}
+
+.centered-div {
+    text-align: center; /* Para centrar el contenido horizontalmente */
+    background: rgb(0, 170, 255); /* Para establecer el color de fondo */
+}
+
+/*Footer*/
+
+#Footer h1 {
+    font-family: "Roboto";
+}
+#Footer a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width:600px) {
+    #ulNavbar {
+      margin-right: 10px;
+      font-weight: bold;
+    }
+  }
